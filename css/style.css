@@ -325,6 +325,7 @@ html {
 .section-contacts {
     padding-top: 85px;
     padding-bottom: 95px;
+    border-bottom: 1px solid #e4e4e4;
 }
 
 .section-contacts-list {
@@ -334,7 +335,7 @@ html {
 
 .section-contacts-item {
     flex: 1 1 33.33%;
-    outline: 1px solid red;
+    
 }
 
 .section-contacts-item:not(:last-child) {
@@ -343,6 +344,13 @@ html {
 
 .section-contacts-info {
     max-width: 250px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #787878;
+}
+
+.section-contacts-link {
+    color: #787878;
 }
 
 .section-contacts-icon {
@@ -368,9 +376,11 @@ html {
 }
 
 .section-contacts-heading {
-    margin-bottom: 40px;
     display: block;
-
+    margin-bottom: 40px;
+    font-size: 17px;
+    line-height: 1;
+    color: #1c1c1c;
 }
 
 /* Footer */
@@ -386,7 +396,8 @@ html {
     height: 100%;
 }
 
-.footer-left {
+.footer-left, 
+.footer-right {
     display: flex;
     align-items: center;
 }
@@ -395,11 +406,81 @@ html {
     margin-right: 25px;
 }
 
+.footer-copyright {
+    font-size: 12px;
+    line-height: 17px;
+    color: #787878;
+}
+
+.footer-nav {
+    margin-right: 55px;
+}
+
 .footer-nav-list {
     display: flex;
+}
+
+.rooter-nav-item {
+    font-size: 14px;
+    line-height: 1;
+}
+
+.footer-nav-link {
+    color: #787878;
 }
 
 .rooter-nav-item:not(:last-child) {
     margin-right: 35px;
 }
+
+.footer-social-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.footer-social-icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    background-position: center;
+}
+
+.footer-social-icon-twit {
+    width: 18px;
+    height: 15px;
+    background-image: url('../img/twit.svg');
+}
+
+.footer-social-icon-in {
+    width: 18px;
+    height: 19px;
+    background-image: url('../img/in.svg');
+    transform: translateY(-2px);
+}
+
+.footer-social-icon-email {
+    width: 24px;
+    height: 17px;
+    background-image: url('../img/email.svg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
